@@ -5,7 +5,7 @@
     android:id="@+id/coordinatorLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/green1"
+    android:background="@color/blue1"
     android:orientation="vertical"
     tools:context="com.example.ps08209_ps08304_ASMNETWORKING.Screens.MainActivity">
 
