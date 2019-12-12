@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="com.example.ps08209_ps08304_ASMNETWORKING.Screens.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/account" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/roboto_condensed_regular"
+        android:text="Đăng Ký"
+        android:textSize="30sp" />
+
+    <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+        android:id="@+id/ed_hoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sharp"
+        android:drawableStart="@drawable/ic_contacts"
+        android:drawableLeft="@drawable/ic_contacts"
+        android:drawablePadding="7dp"
+
+        android:fontFamily="@font/roboto"
+        android:hint="Họ tên"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp" />
+
+    <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+        android:id="@+id/ed_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sharp"
+        android:drawableStart="@drawable/ic_email_black_24dp"
+        android:drawableLeft="@drawable/ic_email_black_24dp"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/roboto"
+        android:hint="Email"
+        android:inputType="text"
+        android:textColor="@color/colorPrimaryDark"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp" />
+
+    <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/sharp"
+        android:drawableStart="@drawable/ic_lock"
+        android:drawableLeft="@drawable/ic_lock"
+        android:drawablePadding="7dp"
+        android:fontFamily="@font/roboto"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textCursorDrawable="@null"
+        android:textSize="16sp" />
+
+
+    <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+    android:id="@+id/ed_phone"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/sharp"
+    android:drawableStart="@drawable/ic_email_black_24dp"
+    android:drawableLeft="@drawable/ic_phone"
+    android:drawablePadding="7dp"
+    android:fontFamily="@font/roboto"
+    android:hint="Số điện thoại"
+    android:inputType="text"
+    android:textColor="@color/colorPrimaryDark"
+    android:textCursorDrawable="@null"
+    android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:background="@drawable/sharp4"
+            android:gravity="center"
+            android:text="Đăng ký"
+            android:textColor="#fff"
+            android:textSize="14sp"
+            android:textStyle="normal" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đã có tài khoản? "
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto"
+                android:text="Đăng nhập"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

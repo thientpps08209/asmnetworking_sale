@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dialog_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/cardview"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical"
+        app:cardCornerRadius="6sp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bk2"
+            android:scaleType="fitXY" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <!--<TextView-->
+            <!--android:id="@+id/dialogTitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:text="Sản phẩm"-->
+            <!--android:textColor="#fff"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textStyle="bold" />-->
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_cellphone"
+                tools:ignore="ContentDescription" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0"
+                    android:background="@color/purple" />
+
+                <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+                    android:id="@+id/ed_maSp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:focusable="true"
+                    android:focusedByDefault="false"
+                    android:hint="Mã sản phẩm"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#979A9A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp"
+                    app:backgroundTint="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0"
+                    android:background="@color/green2" />
+
+                <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+                    android:id="@+id/ed_tenSp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:focusable="true"
+                    android:focusedByDefault="false"
+                    android:hint="Tên sản phẩm"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#979A9A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp"
+                    app:backgroundTint="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0"
+                    android:background="@color/orange1" />
+
+                <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+                    android:id="@+id/ed_nsx"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:focusable="true"
+                    android:focusedByDefault="false"
+                    android:hint="Nhà sản xuất"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#979A9A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp"
+                    app:backgroundTint="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="3dp"
+                    android:layout_height="24dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0"
+                    android:background="@color/yellow1" />
+
+                <com.example.ps08209_ps08304_ASMNETWORKING.utilities.ClearableEditText
+                    android:id="@+id/ed_gianBan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:focusable="true"
+                    android:focusedByDefault="false"
+                    android:hint="Giá bán"
+                    android:inputType="numberDecimal"
+                    android:minLines="1"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="15dp"
+                    android:textColor="#fff"
+                    android:textColorHint="#979A9A"
+                    android:textCursorDrawable="@null"
+                    android:textSize="14sp"
+                    app:backgroundTint="@android:color/transparent" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/background_gradient1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_update"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="Cập nhật"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+                <LinearLayout
+                    android:id="@+id/separator"
+                    android:layout_width="0.2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:background="@drawable/background_gradient3"
+                    android:orientation="vertical" />
+
+                <Button
+                    android:id="@+id/btn_ok"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:gravity="center"
+                    android:text="Đóng"
+                    android:textColor="#fff"
+                    android:textSize="14sp"
+                    android:textStyle="normal" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
