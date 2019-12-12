@@ -14,7 +14,7 @@ public class Products {
         this.nsx = nsx;
         this.giaBan = giaBan;
     }
-
+//po
     public Products(String maSp, String tenSp, String nsx, double giaBan) {
         this.maSp = maSp;
         this.tenSp = tenSp;
