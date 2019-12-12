@@ -75,6 +75,7 @@
                 android:background="@drawable/sharp"
                 android:focusable="true"
                 android:hint="Mã sản phẩm"
+                android:drawableLeft=""
                 android:paddingLeft="5dp"
                 android:paddingRight="15dp"
                 android:textColor="#000"

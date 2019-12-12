@@ -19,7 +19,7 @@
             android:layout_height="533dp"
             android:layout_gravity="center"
 
-            android:src="@drawable/po" />
+            android:src="@drawable/post" />
 
         <TextView
             android:id="@+id/textView"
